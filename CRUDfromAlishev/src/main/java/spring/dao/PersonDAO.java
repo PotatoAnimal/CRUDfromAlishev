@@ -10,7 +10,6 @@ import spring.models.Person;
 import java.util.List;
 
 @Component
-@RequestMapping("/people")
 public class PersonDAO {
     private final JdbcTemplate jdbcTemplate;
 
