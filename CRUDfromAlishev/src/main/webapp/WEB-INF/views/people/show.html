@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>One person</title>
 </head>
 <body>
+
+<div>
+    <a th:text="${person.getName()+', ' + person.getAge()+', ' + person.getEmail()}"></a>
+</div>
 
 </body>
 </html>
